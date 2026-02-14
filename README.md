@@ -19,6 +19,7 @@ To run this project locally, you need Python 3.x installed along with the follow
 Run the following command in your terminal to set up the environment:
 ```bash
 pip install tensorflow opencv-python numpy
+```
 ## Roadmap for hacathon(Checklist)
 [x] **09:00 AM:** Problem desicussion
 [x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
