@@ -1,5 +1,5 @@
 # Project EcoSort: AI-Powered Waste Intelligence
-**Team:** --Binary Coders | **Track:** Sustainability & Smart Cities
+**Team:** --Binary Coders | **Track:** Sustainability 
 **Status:**  Prototype Development 
 ##  The Vision
 In many urban areas, waste segregation at the source is the biggest bottleneck to recycling. **EcoSort AI** is a real-time vision system that identifies waste (Plastic, Paper, Metal) and provides instant binning instructions to ensure a circular economy
