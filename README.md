@@ -1,1 +1,19 @@
-# Eco-Sort
+# Project EcoSort: AI-Powered Waste Intelligence
+**Team:** --Binary Coders | **Track:** Sustainability & Smart Cities
+**Status:**  Prototype Development 
+##  The Vision
+In many urban areas, waste segregation at the source is the biggest bottleneck to recycling. **EcoSort AI** is a real-time vision system that identifies waste (Plastic, Paper, Metal) and provides instant binning instructions to ensure a circular economy
+
+##  Implementation Strategy 
+We are building a bridge between high-level AI and real-time execution:
+* **The Intelligence:** A custom image classification model trained via **Transfer Learning** on the MobileNetV2 architecture.
+* **The Dataset:** 100 curated images of Plastic, Paper, and Metal, including "Environmental Noise" (backgrounds) to ensure real-world accuracy.
+* **The Pipeline:** Using **OpenCV** to capture live frames and **TensorFlow** to run predictions locally on the edge.
+
+## Roadmap for hacathon(Checklist)
+[ ] **09:00 AM:** Problem desicussion
+[ ] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
+[ ] **06:00 PM:** Integration of AI model with Python/OpenCV logic.
+[ ] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
+[ ] **Final Stage:** Optimization for low-latency performance.
+*Developed for the Genesys 2.0  Hackathon.*
