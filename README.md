@@ -20,10 +20,22 @@ Run the following command in your terminal to set up the environment:
 ```bash
 pip install tensorflow opencv-python numpy
 ```
+## further Progress: The `main.py` Integration
+We have successfully transitioned from model training to full system integration. The `main.py` serves as the central orchestrator, handling the following complex tasks:
+### 1. High-Performance Inference Engine
+The script utilizes a **Compatibility Layer** to load our MobileNetV2 model. 
+### 2. Real-Time Vision Pipeline
+Using **OpenCV**, we've implemented a frame-capture loop that:
+* **Normalizes Input:** Converts raw pixel data into the floating-point format required by the AI.
+* **Resizing & Cropping:** Automatically adjusts the camera aspect ratio to a 224x224 input tensor without distorting the image.
+### 3. Smart Logic & UX
+The `main.py` doesn't just show labels; it makes decisions:
+* **Threshold Filtering:** Only triggers a "Bin Instruction" if the AI confidence is above 80%, reducing false positives.
+* **Interactive Metrics:** Uses Streamlit's state management to track how many items have been processed in a single session, providing immediate "Impact Feedback."
 ## Roadmap for hacathon(Checklist)
 [x] **09:00 AM:** Problem desicussion
 [x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
-[ ] **06:00 PM:** Integration of AI model with Python/OpenCV logic.
-[ ] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
+[x] **06:00 PM:** Integration of AI model with Python/OpenCV logic.
+[] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
 [ ] **Final Stage:** Optimization for low-latency performance.
 *Developed for the Genesys 2.0  Hackathon.*
