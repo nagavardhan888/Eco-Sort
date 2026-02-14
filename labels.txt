@@ -1,4 +1,5 @@
-0 plastic waste
-1 paper waste
-2 Metal waste
-3 no waste
+0 PLASTIC WASTE
+1 PAPER WASTE
+2 METAL WASTE
+3 NO WASTE
+
