@@ -11,8 +11,8 @@ We are building a bridge between high-level AI and real-time execution:
 * **The Pipeline:** Using **OpenCV** to capture live frames and **TensorFlow** to run predictions locally on the edge.
 
 ## Roadmap for hacathon(Checklist)
-[ ] **09:00 AM:** Problem desicussion
-[ ] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
+[x] **09:00 AM:** Problem desicussion
+[x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
 [ ] **06:00 PM:** Integration of AI model with Python/OpenCV logic.
 [ ] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
 [ ] **Final Stage:** Optimization for low-latency performance.
