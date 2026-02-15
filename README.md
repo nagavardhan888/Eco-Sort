@@ -32,6 +32,31 @@ Using **OpenCV**, we've implemented a frame-capture loop that:
 The `main.py` doesn't just show labels; it makes decisions:
 * **Threshold Filtering:** Only triggers a "Bin Instruction" if the AI confidence is above 80%, reducing false positives.
 * **Interactive Metrics:** Uses Streamlit's state management to track how many items have been processed in a single session, providing immediate "Impact Feedback."
+**Features
+Real-Time Detection: Processes live video feed from your webcam.
+High Precision: Uses a TensorFlow/Keras model (.h5) for image classification.
+Interactive UI: Simple "Start" and "Stop" controls powered by Streamlit.
+Confidence Filtering: Only triggers labels when the model is >80% confident.
+**Prerequisites
+Before running the app, ensure you have the following installed:
+Python 3.9+
+A working Webcam
+```bash
+pip install streamlit opencv-python numpy tensorflow
+```
+How to Use
+Run the Streamlit application:
+```bash
+streamlit run app.py
+```
+The browser will open automatically at http://localhost:8501.
+Click the "Start Camera" button.
+Hold an object (e.g., a plastic bottle or paper) in front of the camera to see the classification.
+**Technical FlowCapture:
+OpenCV captures frames from the webcam.
+Pre-process: Frames are resized to $224 X 224$ and normalized to a range of $[-1, 1]$.
+Inference: The Keras model predicts the category.
+Display: The label and confidence score are overlaid on the live video feed.
 ## Roadmap for hacathon(Checklist)
 [x] **09:00 AM:** Problem desicussion
 [x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
