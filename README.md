@@ -49,14 +49,14 @@ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
-The browser will open automatically at http://localhost:8501.
-Click the "Start Camera" button.
-Hold an object (e.g., a plastic bottle or paper) in front of the camera to see the classification.
+*The browser will open automatically at http://localhost:8501.
+*Click the "Start Camera" button.
+*Hold an object (e.g., a plastic bottle or paper) in front of the camera to see the classification.
 **Technical FlowCapture:
-OpenCV captures frames from the webcam.
-Pre-process: Frames are resized to $224 X 224$ and normalized to a range of $[-1, 1]$.
-Inference: The Keras model predicts the category.
-Display: The label and confidence score are overlaid on the live video feed.
+*OpenCV captures frames from the webcam.
+*Pre-process: Frames are resized to $224 X 224$ and normalized to a range of $[-1, 1]$.
+*Inference: The Keras model predicts the category.
+*Display: The label and confidence score are overlaid on the live video feed.
 ## Roadmap for hacathon(Checklist)
 [x] **09:00 AM:** Problem desicussion
 [x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
