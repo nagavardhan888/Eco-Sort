@@ -61,6 +61,6 @@ streamlit run app.py
 [x] **09:00 AM:** Problem desicussion
 [x] **11:00 AM:** Dataset curation and Model Training via Teachable Machine.
 [x] **06:00 PM:** Integration of AI model with Python/OpenCV logic.
-[] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
+[x] **11:00 PM:** Adding "Bin Logic" and User Interface feedback.
 [ ] **Final Stage:** Optimization for low-latency performance.
 *Developed for the Genesys 2.0  Hackathon.*
